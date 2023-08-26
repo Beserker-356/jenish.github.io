@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      #me {
+        border-radius: 50px;
+        box-shadow: 00px 00px 10px black;
+      }
+      .container {
+        height: 25vh;
+        font-size: 20px;
+      }
+      span{
+        font-family: monospace;
+        font-size: 35px;
+      }
+      #g{
+        height: 75vh;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-center py-5">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="portfolioweb_home.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="portfolioweb_about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="portfolioweb_contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+      <div class="container col-xxl-8 px-4 py-5" id="g">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 mb-1">
+            <img src="me.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="auto" loading="lazy" id="me">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"><span class="text-body-secondary">Hello! I'm </span>Jenish Thapa</h1>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Hello World!
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Explore a world of creativity and innovation right here. I'm excited to share my journey, projects, and passions with you. Let's inspire and create together!
+                <br><br>
+                Cheers!
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
